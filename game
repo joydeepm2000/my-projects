@@ -1,0 +1,27 @@
+#ball cup game 
+print("Welcome to the game!")
+from random import shuffle
+def shuffle_list(mylist):
+    shuffle(mylist)
+    return mylist
+mylist=[' ','0',' ']
+def player_guess():
+    
+    guess=input('enter any index among 0,1 or 2')
+    return int(guess)
+    
+def check(mylist,guess):
+    if mylist[guess]=='0':
+        print("correct guess")
+    else:
+        print("wrong guess")
+        print(mylist)
+
+#initial list
+mylist=[' ','0',' ']
+#shuffle list
+mixed_list=shuffle_list(mylist)
+#player guess
+guess=player_guess() 
+#check guess
+check_guess=check(mixed_list,guess)                
