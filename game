@@ -1,7 +1,7 @@
 #ball cup game 
 print("Welcome to the game!")
 from random import shuffle
-def shuffle_list(mylist):
+def shuffle_list(mylist):  
     shuffle(mylist)
     return mylist
 mylist=[' ','0',' ']
