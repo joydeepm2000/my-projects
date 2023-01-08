@@ -1,3 +1,3 @@
 # my-projects
 
-this is a game
+this is a ball game created with python.
